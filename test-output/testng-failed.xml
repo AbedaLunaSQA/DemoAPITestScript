@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RestAssuredDemo.HTTPRequests">
+      <class name="PostRequests.differentWaysToCreatePostRequestsBody">
         <methods>
-          <include name="createUser"/>
+          <include name="deletePostRequest"/>
         </methods>
-      </class> <!-- RestAssuredDemo.HTTPRequests -->
+      </class> <!-- PostRequests.differentWaysToCreatePostRequestsBody -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
